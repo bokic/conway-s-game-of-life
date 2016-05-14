@@ -13,12 +13,12 @@ Dialog::~Dialog()
     delete ui;
 }
 
-void Dialog::on_pushButton_clicked()
+void Dialog::on_newSimulation_pushButton_clicked()
 {
     ui->widget->newImage();
 }
 
-void Dialog::on_toolButton_2_clicked()
+void Dialog::on_animationStep_toolButton_clicked()
 {
     ui->widget->step();
 }

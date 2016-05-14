@@ -16,9 +16,8 @@ public:
     ~Dialog();
 
 private slots:
-    void on_pushButton_clicked();
-
-    void on_toolButton_2_clicked();
+    void on_newSimulation_pushButton_clicked();
+    void on_animationStep_toolButton_clicked();
 
 private:
     Ui::Dialog *ui;
