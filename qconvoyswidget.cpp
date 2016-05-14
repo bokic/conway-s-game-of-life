@@ -8,14 +8,8 @@
 #define CELL_IS_DEAD    2
 
 
-QConvoysWidget::QConvoysWidget(QWidget *parent) :
-    QWidget(parent),
-    m_width(0),
-    m_height(0),
-    m_stepTimer(0),
-    m_ShowMatrix(0),
-    m_GenerateMatrix(1),
-    m_running(false)
+QConvoysWidget::QConvoysWidget(QWidget *parent)
+    : QWidget(parent)
 {
     newImage();
 }

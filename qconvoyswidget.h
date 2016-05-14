@@ -36,12 +36,12 @@ private:
 
     QByteArray m_matrix[2];
     QPixmap m_pixmap;
-    int m_width, m_height;
-    int m_stepTimer;
-    int m_ShowMatrix;
-    int m_GenerateMatrix;
-    bool m_running;
-
+    int m_width = 0;
+    int m_height = 0;
+    int m_stepTimer = 0;
+    int m_ShowMatrix = 0;
+    int m_GenerateMatrix = 1;
+    bool m_running = false;
 };
 
 #endif // QCONVOYSWIDGET_H
